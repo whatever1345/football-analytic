@@ -1,5 +1,5 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = ">=3.12"
 resolution-markers = [
     "python_full_version >= '3.14'",
@@ -466,6 +466,7 @@ dependencies = [
     { name = "cloudscraper" },
     { name = "datafc" },
     { name = "html5lib" },
+    { name = "ipykernel" },
     { name = "jupyter" },
     { name = "lxml" },
     { name = "requests" },
@@ -479,6 +480,7 @@ requires-dist = [
     { name = "cloudscraper", specifier = ">=1.2.71" },
     { name = "datafc", specifier = ">=1.5.0" },
     { name = "html5lib", specifier = ">=1.1" },
+    { name = "ipykernel", specifier = ">=7.1.0" },
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "lxml", specifier = ">=6.0.2" },
     { name = "requests", specifier = ">=2.32.5" },
